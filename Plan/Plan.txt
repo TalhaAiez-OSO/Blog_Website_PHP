@@ -1,0 +1,59 @@
+Header
+    Home Page Option
+    Login Option
+
+Home Page
+    Pagiated List of blog posts
+
+Blog Post Page
+    Show Full content of blog post
+    Title
+    Content
+    Date published / Updated
+    Number of views
+
+Admin Dashboard
+    Add Blog Post Page
+    Edit Blog Post Page
+        Update Blog Post
+        Delete Blog Post
+
+Add csrf to login page (DONE)
+Add csrf to register page
+Add password hashing (method: argon2id)
+
+-------------------------------------------------------------------
+File Organization:
+
+Classes
+    -SQL_CLASS
+
+CSS
+    -adminDash.css
+    -header.css
+    -login.css
+    -post.css
+    -register.css
+    -header.css
+    -button.css
+    -footer.css
+
+HOME
+    -Header.php
+    -Footer.php
+    -Content.php
+
+HEADER
+    -Login/Logout Button
+    -Admin/Blog Button
+    -Home Buttom
+
+
+
+
+
+
+
+
+
+

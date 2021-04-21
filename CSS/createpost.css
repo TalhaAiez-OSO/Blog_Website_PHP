@@ -1,0 +1,35 @@
+.create-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#title, .postContent{
+    margin: 1rem 0rem;
+    padding: 0.5rem 0.5rem;
+}
+
+#title{
+    height: 2rem;
+    font-size: 1.25rem;
+}
+
+.postContent{
+    min-height: 20rem;
+    font-size: 1rem;
+    resize: none;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+}
+#create-btn{
+    margin: 1rem 0rem;
+    width: 10rem;
+    border: none;
+    cursor: pointer;
+}
+
+#create-btn:hover{
+    color:white;
+    background-color: green;
+}

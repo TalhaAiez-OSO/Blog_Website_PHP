@@ -1,0 +1,43 @@
+.button-CP{
+    margin: 1rem 0rem;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.button-CP:hover{
+    color:rgb(255, 255, 255);
+    background-color: green;
+}
+
+.main-container{
+    display: flex;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 30px black;
+    color: black;
+    flex-direction: column;
+}
+
+.PostConfig{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding: 1.5rem 0rem;
+}
+
+.edit-btn{
+    background-color: green;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.delete-btn:hover, .edit-btn:hover{
+    background-color: #1a1a1a;
+    color: white;
+}

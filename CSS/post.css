@@ -1,0 +1,13 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-info span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post-main-container{
+    margin: 1rem 20rem;
+}

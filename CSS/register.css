@@ -1,0 +1,91 @@
+.container{
+    height: 30rem;
+    width: 22.5rem;
+    margin: 5% auto;
+    padding: 0.5rem;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 30px black;
+    flex-direction: column;
+}
+
+.button-box{
+    margin: 1.188rem auto 2.188rem auto;
+    border-radius: 1.3rem;
+    box-shadow: 0rem 0rem 0.5rem #d9d9d9;
+    display: flex;
+}
+
+.toggle-btn{
+    padding: 0.7rem 2rem;
+    width: 6.872rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    background-color: white;
+}
+
+.toggle-btn:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+
+.login-btn{
+    border-radius: 1.3rem 0rem 0rem 1.3rem;
+    transform-origin: right center;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.register-btn{
+    border-radius: 0rem 1.3rem 1.3rem 0rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    transform-origin: left center;
+}
+
+.login-form-container{
+    display: flex;
+    margin: 0rem 3rem;
+    height: 100%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.login-input{
+    border: 0px solid #1a1a1a;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0rem 0rem 0.5rem #d9d9d9;
+    outline: none;
+}
+
+#rememberCheck{
+    box-shadow: none;
+    margin-left: 0.4rem;
+    cursor: pointer;
+}
+
+span{
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#submit-btn{
+    background-color: #1a1a1a;
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 0.7rem;
+}
+
+#submit-btn:hover{
+    background-color: #414141;
+    cursor: pointer;
+}

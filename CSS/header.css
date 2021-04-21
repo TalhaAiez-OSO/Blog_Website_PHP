@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #1a1a1a;
+}
+
+.navbar{
+    background-color: #1a1a1a;
+    height: 5rem;
+}
+
+.nav-container{
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    box-shadow: 0rem 0.1rem 0.5rem black;
+}
+
+.button{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: white ;
+    color: #1a1a1a;
+    opacity: 1;
+}
+
+.nav-button{
+    margin: 0.3rem;
+    font-size: 2rem;
+}
+
+.logo-button{
+    font-family: fantasy;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.pagination a, .pagination input{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+.page-number{
+    border:none;
+    background-color: white;
+}
+
+.pagination input:hover{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.activePage{
+    background-color: black;
+    color: white;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post{
+    margin: 2rem;
+    padding: 1.2rem;
+    background-color: #1a1a1a;
+    color: white;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.blog-content{
+    max-height: 15rem;
+    min-height: 15rem;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+hr{
+    margin: 1rem 0rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.content{
+    font-size: 1.2rem;
+}
+
+.learn-btn {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #1a1a1a;
+}
+
+.learn-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer{
+    color:white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0rem 0.1rem 0.5rem black;
+}
+
+.footer p{
+    padding: 1.5rem;
+}
+
+.redirectPage{
+    color: white;
+    margin: 1rem 3rem;
+}

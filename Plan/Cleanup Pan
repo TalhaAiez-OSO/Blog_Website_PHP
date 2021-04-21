@@ -1,0 +1,15 @@
+Page Clean Up
+
+-Register.php
+
+1. Add Header.php
+2. Add footer.php
+3. Input New User
+4. Check the validity of the Input
+    4.1. Check if the email is valid 
+    4.2. Check if the email does not already exist
+5. Hash the password with argon2id
+6. Add CSRF protection
+7. Add the user to database
+8. Redirect to a register successful page
+9. Put functions in header only
